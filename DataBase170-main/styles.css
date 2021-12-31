@@ -1,0 +1,339 @@
+body{
+    background-color: #1f2535;
+
+    color:white;
+    text-shadow: 5px 5px #000000;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.mainInfo .avatar{
+    height: 150px;
+    border-radius: 26px;
+    box-shadow: 4px 4px 14px rgba(0,0,0,025);
+    margin-left: 85px;
+    margin-top: 10px;
+}
+
+
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-Bold.ttf);
+}
+
+.mainInfo p{
+    margin: 0;
+    font-size:large;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+.container{
+    max-width: 1400px;
+    margin-top: 50px;
+    margin-left: 405px;
+}
+
+.container p, .container a{
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color:#f0524a;
+}
+
+.card{
+    background: #151a27;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 10px;
+    width: 99%;
+    margin-left: 10px;
+}
+
+.card h2{
+    margin-bottom: 10px;
+    margin-left: 20px;
+    background-color: #f0524a;
+    color:black;
+    text-shadow: none;
+    max-width: 300px;
+}
+
+.message{
+    max-width: 800px;
+    margin: auto; 
+}
+
+.list{
+    padding: 0 30px;
+}
+
+.table{
+    width: 100%;
+}
+
+.table td{
+    padding-bottom: 10px;
+    padding:  0 15px;
+}
+
+.form-group label{
+    display: block;
+    font-size: 14px;
+    color: white;
+}
+
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1p solid #ccc;
+    padding: 15px 0 10px;
+    outline: #f0524a;
+    color: white;
+    background: #151a27;
+}
+
+.row{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.row > .form-group{
+    width: 50%;
+    margin-right: 20px;
+}
+
+
+.infotext p{
+    font-size: 15px;
+    text-align: center;
+}
+
+.infotext h1{
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 10px;
+    color: #f0524a;
+}
+
+.btn{
+    color: #f0524a;
+    background: #151a27;
+    border: none;
+    width: 100px;
+    height: 50px;
+    padding: 15px, 100px;
+    font-family: Roboto;
+    cursor: pointer;
+}
+
+.friendship{
+    position: fixed;
+    top: 355px;
+    left: 10px;
+    width: 400px;
+    height: 100px;
+    background: #151a27;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.mainInfo{
+    position: fixed;
+    max-width: 800px;
+    width: 400px;
+    top: 50px;
+    left: 10px;
+    background: #151a27;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.littleinfo{
+    display: flex;
+    width: 98%;
+}
+
+.littleinfo div{
+    margin-left: 10px;
+    width: 50%;
+    min-width: 50%;
+}
+
+.lol{
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    top: 720px;
+    left: 100px;
+    border-radius: 50%;
+}
+
+.documentList{
+    position: fixed;
+    width: 400px;
+    top: 450px;
+    left: 10px;
+    background: #151a27;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 20px;
+}
+
+.documentList h2{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: #f0524a;
+    color:black;
+    text-shadow: none;
+    width: 300px;
+}
+
+.friendship h2{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    background-color: #f0524a;
+    color:black;
+    text-shadow: none;
+    width: 300px;
+}
+
+.friendship a{
+    margin-left: 100px;
+}
+
+
+.head{
+    background: #151a27;
+    border-bottom: 2px solid black;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left:0px;
+    
+}
+
+.head > div{
+    display: inline-flex;
+    float: inline-end;
+}
+
+.logo{
+    display:flex;
+    background-image: url("logo.png");
+    top: 30px;
+    left: 20px;
+    width: 75px;
+    height: 37px;
+    margin-left: 10px;
+
+}
+
+#current_date_time_block, .nameOfDocument{
+    margin-right: 100px;
+    width: 30%;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 20px;
+    vertical-align: super;
+    margin-bottom: 0px;
+}
+
+
+
+/* работа над фрэндлистом */
+
+.heading p{
+    width: 150px;
+    margin-left: 0px;
+    padding-left: 0px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.heading h1{
+    background-color: #f0524a;
+    color:black;
+    max-width: 350px;
+    text-shadow: none;
+    margin-left: 170px;
+    margin-top: 50px;
+}
+
+.block{
+    background: #151a27;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    max-width: 460px;
+    height: 180px;
+    display:flex;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.friendInfo p, .friendInfo h4{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.avatarfriend{
+    max-width: 150px;
+    padding-top: 10px;
+    margin-right: 10px;
+    margin-left:10px;
+    padding-bottom: 10px;
+    border-radius: 50%;
+}
+
+.friendBoard > div{
+    float:left;
+}
+
+.friendAvatar img{
+    height: 70%;
+    margin-top:10px;
+}
+
+body > div{
+    display: table;
+}
+
+.heading .logoDiv, .heading .logoDiv, .heading .return{
+    float: left;
+}
+
+.logoDiv > .logo{
+    position: inherit;
+}
+.return{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 350px;
+    height: 30px;
+    text-shadow: none;
+}
+
+.backToIndex{
+    font-size: 20px;
+    vertical-align: super;
+}
+
